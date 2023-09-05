@@ -26,4 +26,6 @@ to run the number of tests - npx playwright test --workers 6
 to run test for specific file -  npx playwright test .\tests\example.specs.ts
 
 added script in package.json for test run - npm test
+
+runs for specific browser- npx playwright test --project=chromium
 ```
