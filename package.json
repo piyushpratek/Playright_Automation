@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "playwright test"
+    "test": "playwright test .\tests.myfirsttestspec.ts",
+    "start": "node ./tests/myfirsttestspec.ts"
   },
   "keywords": [],
   "author": "",
