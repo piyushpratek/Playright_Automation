@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "playwright test .\tests.myfirsttestspec.ts",
+    "test": "npx playwright test ./tests/myfirsttestspec.ts --headed",
     "start": "node ./tests/myfirsttestspec.ts"
   },
   "keywords": [],
